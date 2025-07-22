@@ -65,14 +65,14 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="expiryDate">Expiry Date</label>
-                        <input type="date" class="form-control" id="expiryDate">
+                        <label for="Joiningdate">Joining Date</label>
+                        <input type="date" class="form-control" id="joiningdate">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="registrationNumber">Registration Number</label>
-                        <input type="text" class="form-control" id="registrationNumber" placeholder="Registration Number">
+                        <label for="MembershipNumber">Membership Number</label>
+                        <input type="text" class="form-control" id="registrationNumber" placeholder="Membership Number">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="email">Email</label>
@@ -91,8 +91,8 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="city">City</label>
-                        <input type="text" class="form-control" id="city" placeholder="City">
+                        <label for="corp">Corp</label>
+                        <input type="text" class="form-control" id="city" placeholder="corp">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="institution">Institution</label>
