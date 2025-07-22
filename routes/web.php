@@ -25,6 +25,10 @@ Route::get('/Register', function () {
     return view('registrationform');
 });
 
+Route::get('/SelfRegister', function () {
+    return view('selfregister');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard.home');
