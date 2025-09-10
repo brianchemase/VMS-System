@@ -21,19 +21,25 @@
         </svg>
         <h1 class="h1 fw-bold text-dark">Brigade Registration</h1>
       </div>
-      <p class="text-muted fs-5">Complete your registration to join the brigade</p>
+      <p class="text-muted fs-5">Complete your registration as a brigade member</p>
     </div>
 
+ 
+
     @if(session('success'))
-    <script>
-        Swal.fire({
-            icon: 'success',
-            title: 'Success!',
-            text: '{{ session('success') }}',
-            confirmButtonColor: '#198754'
-        });
-    </script>
-    @endif
+      <script>
+      Swal.fire({
+          icon: 'success',
+          title: 'Success!',
+          text: '{{ session('success') }}',
+          imageUrl: "{{ asset('logo/logo.png') }}", // Path to your logo
+          imageWidth: 80,
+          imageHeight: 80,
+          imageAlt: 'Logo',
+          confirmButtonColor: '#198754'
+      });
+      </script>
+      @endif
 
     @if ($errors->any())
     <script>
