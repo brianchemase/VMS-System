@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +20,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('selfregister');
+    return view('langingpage');
 });
+Route::post('/register-member', [MemberController::class, 'store'])->name('member.store');
 
 
 Route::get('/dashboard', function () {
